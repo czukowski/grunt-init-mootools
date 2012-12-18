@@ -1,0 +1,46 @@
+{
+  "name": "grunt-init-mootools",
+  "description": "Grunt plugin to generate Mootools plugin stub.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/czukowski/grunt-init-mootools",
+  "author": {
+    "name": "Korney Czukowski",
+    "email": "carbofos@seznam.cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/czukowski/grunt-init-mootools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/czukowski/grunt-init-mootools/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/czukowski/grunt-init-mootools/blob/master/LICENSE.md"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": {
+    "grunt-init-mootools": "bin/grunt-init-mootools"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15"
+  },
+  "keywords": [
+    "gruntplugin",
+    "mootools"
+  ],
+  "readme": "# grunt-init-mootools\r\n\r\nGrunt plugin to generate Mootools plugin stub.\r\n\r\nBoilerplate to generate grunt init plugins that will generate grunt projects.\r\n\r\nThis work is based in [Backbone Boilerplate framework tool](https://github.com/backbone-boilerplate/grunt-bbb) from [Tim Branyen](https://github.com/tbranyen)\r\n\r\n## Getting Started ##\r\n\r\n#### Install this [Grunt](https://github.com/cowboy/grunt) plugin with: ####\r\n``` bash\r\n$ npm install -g grunt-init-mootools\r\n```\r\n\r\n#### Create a new grunt init template ####\r\n``` bash\r\n$ grunt-init-mootools init\r\n```\r\nAnswer some questions\r\n\r\n#### Add some file in ####\r\n``` bash\r\n$ /tasks/init/grunt-init-mootools/root\r\n```\r\n\r\n#### To run in development environment ####\r\n``` bash\r\n$ npm link\r\n```\r\n\r\n``` bash\r\n$ grunt-init-mootools init\r\n```\r\n\r\n## License\r\n\r\nCopyright (c) 2012 Korney Czukowski Licensed under the MIT license.",
+  "_id": "grunt-init-mootools@0.1.0",
+  "dist": {
+    "shasum": "674e086f13a7f44f551de21490d1abb69d715931"
+  },
+  "_from": "."
+}

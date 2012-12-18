@@ -1,0 +1,8 @@
+{
+	"Docs/Name.md": "Docs/{%= name %}.md",
+	"Source/Name.js": "Source/{%= name %}.js",
+	"Specs/Name.js": "Specs/{%= name %}.js",
+	".gitignore": ".gitignore",
+	".npmignore": false,
+	".DS_Store": false
+}
