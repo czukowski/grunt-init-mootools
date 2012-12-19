@@ -36,7 +36,7 @@ Getting Started
     * LICENSE.md
     * package.yml
 
-  5. Now just add code, specs and API docs into the prepared template files
+Now just add code, specs and API docs into the prepared template files
 
 License
 -------
