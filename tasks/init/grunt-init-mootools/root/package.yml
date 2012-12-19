@@ -1,0 +1,6 @@
+name: {%= title || name %}
+author: {%= author_name %}
+category: 
+tags: [{%= keywords.join(', ') %}]
+docs: https://github.com/{%= git_user %}/{%= git_repo %}/
+{%= homepage ? "demo: " + homepage : "" %}
