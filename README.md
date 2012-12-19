@@ -22,7 +22,21 @@ Getting Started
 
   3. Answer some questions.
 
-  4. Now you have your new plugin stub ready. Just add code, specs and API docs into the prepared template files.
+  4. Now you have your new plugin stub ready. These files with the placeholder code have been created:
+
+    * Docs
+      * ProjectName.md
+    * Source
+      * ProjectName.js
+    * Specs
+      * ProjectName.js
+      * Tests.html
+    * grunt.js
+    * README.md
+    * LICENSE.md
+    * package.yml
+
+  5. Now just add code, specs and API docs into the prepared template files
 
 License
 -------
