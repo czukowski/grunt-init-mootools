@@ -1,6 +1,6 @@
 name: {%= title || name %}
 author: {%= author_name %}
-license: {%= licenses.join(', ') %}
+licenses: [{%= licenses.join(', ') %}]
 category: 
 tags: [{%= keywords.join(', ') %}]
 docs: https://github.com/{%= git_user %}/{%= git_repo %}/
