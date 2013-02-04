@@ -1,7 +1,7 @@
 /**
- * grunt-init-mootools.js
+ * mootools.js
  * 
- * Copyright (c) 2012 Korney Czukowski
+ * Copyright (c) 2013 Korney Czukowski
  * Licensed under the MIT license.
  */
 'use strict';
