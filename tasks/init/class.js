@@ -57,8 +57,12 @@ exports.template = function(grunt, init, done) {
 		],
 		function(err, props) {
 			// Auto-generated props
-			props.pathname = props.classname.replace(/\./g, '/');
-			props.pathDepth = props.pathname.replace(/[^\/]/g, '').length;
+			var pathParts = props.classname.split('.');
+			props.pathname = pathParts.join('/');
+			props.pathDepth = pathParts.length - 1;
+			props.filename = props.pathDepth > 0 ? pathParts[pathParts.length - 1] : props.classname;
+			props.rootClassname = props.pathDepth > 0 ? pathParts[0] : props.classname;
+			props.rootRelative = grunt.utils._.str.repeat('../', props.pathDepth + 1);
 
 			// Files to copy (and process)
 			var files = init.filesToCopy(props);
