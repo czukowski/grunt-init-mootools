@@ -1,0 +1,6 @@
+{
+	"Docs.md": "Docs/{%= pathname %}.md",
+	"Source.js": "Source/{%= pathname %}.js",
+	"Specs.js": "Specs/{%= pathname %}.js",
+	"Specs.html": "Specs/{%= pathname %}.html"
+}
