@@ -38,7 +38,7 @@ exports.template = function(grunt, init, done) {
 				default: 'MyClass',
 				validator: function(value) {
 					// Check if files with the required names already exist
-					var filesToCopy = init.filesToCopy({pathname: value.replace('.', '/')});
+					var filesToCopy = init.filesToCopy({pathname: value.replace(/\./g, '/')});
 					for (var file in filesToCopy) {
 						if (fs.existsSync(file)) {
 							grunt.log.writeln('error'.red+':  '+file.grey+' already exists! Please choose another class name.');
@@ -56,8 +56,8 @@ exports.template = function(grunt, init, done) {
 			grunt.helper('prompt_for', 'author_url')
 		],
 		function(err, props) {
-			// Path for created files
-			props.pathname = props.classname.replace('.', '/');
+			// Auto-generated props
+			props.pathname = props.classname.replace(/\./g, '/');
 
 			// Files to copy (and process)
 			var files = init.filesToCopy(props);
