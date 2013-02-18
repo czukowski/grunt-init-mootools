@@ -9,9 +9,11 @@ requires:
 provides: {%= classname %}
 ...
 */
-
+{% if (pathDepth === 0) { %}
 var {%= classname %} = new Class({
-
+{% } else { %}
+new Class('{%= classname %}', {
+{% } %}
 	// Put your code here
 
 	initialize: function() {

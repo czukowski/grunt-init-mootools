@@ -58,6 +58,7 @@ exports.template = function(grunt, init, done) {
 		function(err, props) {
 			// Auto-generated props
 			props.pathname = props.classname.replace(/\./g, '/');
+			props.pathDepth = props.pathname.replace(/[^\/]/g, '').length;
 
 			// Files to copy (and process)
 			var files = init.filesToCopy(props);
