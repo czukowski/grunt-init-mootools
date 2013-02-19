@@ -36,6 +36,19 @@ Getting Started
 
 Now just add code, specs and API docs into the prepared template files
 
+One Source file not enough?
+---------------------------
+
+  1. To create additional set of a source, specs and docs files, type in your previously initialized project:
+
+    ```bash
+    $ grunt-init-mootools init:mootools
+    ```
+
+  2. Answer some questions.
+
+  3. You're done, have fun.
+
 License & acknowledgments
 -------------------------
 
