@@ -1,7 +1,11 @@
-MooTools plugin template
-========================
+MooTools plugin template (Grunt 0.3)
+====================================
 
-Boilerplate to generate MooTools plugins using [Grunt][1].
+This is a boilerplate to generate MooTools plugins using [Grunt][1].
+
+Please note, that it is for now-outdated Grunt 0.3 version. The new grunt-init that complements Grunt 0.4
+doesn't seem to allow to put multiple templates into one package. The solution will probably be to create
+a [yo generator][4] instead.
 
 Getting Started
 ---------------
@@ -59,3 +63,4 @@ Copyright (c) 2013 Korney Czukowski. Licensed under the MIT license.
   [1]: http://gruntjs.com/
   [2]: https://npmjs.org/package/grunt-init-plugin
   [3]: https://github.com/rsvalerio
+  [4]: https://yeoman.io/
