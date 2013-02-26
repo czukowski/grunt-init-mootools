@@ -1,7 +1,7 @@
 {
   "name": "grunt-init-mootools",
   "description": "Grunt plugin to generate Mootools plugin stub.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/czukowski/grunt-init-mootools",
   "author": {
     "name": "Korney Czukowski",
@@ -39,10 +39,5 @@
   "keywords": [
     "gruntplugin",
     "mootools"
-  ],
-  "_id": "grunt-init-mootools@0.1.0",
-  "dist": {
-    "shasum": "674e086f13a7f44f551de21490d1abb69d715931"
-  },
-  "_from": "."
+  ]
 }
