@@ -43,10 +43,10 @@ Now just add code, specs and API docs into the prepared template files
 One Source file not enough?
 ---------------------------
 
-  1. To create additional set of a source, specs and docs files, type in your previously initialized project:
+  1. To create additional set of a source, specs and docs files, type in your previously initialized project directory:
 
     ```bash
-    $ grunt-init-mootools init:mootools
+    $ grunt-init-mootools init:class
     ```
 
   2. Answer some questions.
@@ -63,4 +63,4 @@ Copyright (c) 2013 Korney Czukowski. Licensed under the MIT license.
   [1]: http://gruntjs.com/
   [2]: https://npmjs.org/package/grunt-init-plugin
   [3]: https://github.com/rsvalerio
-  [4]: https://yeoman.io/
+  [4]: http://yeoman.io/
